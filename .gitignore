@@ -11,7 +11,7 @@ node_modules/
 
 # Next.js
 frontend/.next/
-frontend/out/
+frontend/node_modules/
 
 # Logs
 npm-debug.log*
