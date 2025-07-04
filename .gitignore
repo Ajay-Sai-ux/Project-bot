@@ -1,0 +1,13 @@
+# Ignore Python virtual environments
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+*.pyc
+
+# Ignore Node modules
+frontend/node_modules/
+
+# Common ignores
+.DS_Store
+.env
+*.log
