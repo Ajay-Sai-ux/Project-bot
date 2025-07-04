@@ -6,9 +6,10 @@ backend/*.pyc
 
 # Ignore Node modules
 frontend/node_modules/
+# Next.js build folder
+frontend/.next/
 
 # Common ignores
 .DS_Store
 .env
 *.log
-.next
