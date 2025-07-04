@@ -1,0 +1,58 @@
+/* [project]/src/app/page.module.css [app-client] (css) */
+.page-module___8aEwW__page {
+  --gray-rgb: 0, 0, 0;
+  --gray-alpha-200: rgba(var(--gray-rgb), .08);
+  --gray-alpha-100: rgba(var(--gray-rgb), .05);
+  --button-primary-hover: #383838;
+  --button-secondary-hover: #f2f2f2;
+  min-height: 100svh;
+  font-family: var(--font-geist-sans);
+  grid-template-rows: 20px 1fr 20px;
+  place-items: center;
+  gap: 64px;
+  padding: 80px;
+  display: grid;
+}
+
+.page-module___8aEwW__main {
+  flex-direction: column;
+  grid-row-start: 2;
+  align-items: center;
+  gap: 32px;
+  display: flex;
+}
+
+.page-module___8aEwW__ctas {
+  gap: 16px;
+  display: flex;
+}
+
+.page-module___8aEwW__ctas button {
+  appearance: none;
+  cursor: pointer;
+  border: 1px solid #0000;
+  border-radius: 128px;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  transition: color .2s, border-color .2s;
+  display: flex;
+}
+
+button.page-module___8aEwW__primary {
+  background: var(--foreground);
+  color: var(--background);
+  gap: 8px;
+}
+
+button.page-module___8aEwW__secondary {
+  border-color: var(--gray-alpha-200);
+  min-width: 158px;
+}
+
+
+/*# sourceMappingURL=src_app_page_module_d12eb71c.css.map*/
